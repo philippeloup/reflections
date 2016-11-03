@@ -1,2 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
-No commit is automatically created. You have whatever is in the folder not being tracked, but you are on the 'branch master'.
+	No commit is automatically created. You have whatever is in the folder not being tracked, but you are on the 'branch master'.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	The staging area allows you to select the files that are going to be commited, before you actually do. It allows for making sure that the correct files get committed.
+ 
