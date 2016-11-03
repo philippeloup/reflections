@@ -1,0 +1,16 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+using FC (in Windows, FileCompare) file1.txt file2.txt helps focus on any difference that I would not have picked up on otherwise or manually
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Well, it would then be easy to reuse parts of the code that I would maybe have discarded in later versions. or show at what point I built a part of the program that should have been broken out.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+By being mindful of your commit schedule, you can commit on logical changes. making it easier to logically compare filesl
+
+How can you use the commands git log and git diff to view the history of files?
+git log - shows you the commits in that repo and their titles
+git diff - shows you the actual changes between two commit ids
+
+How might using version control make you more confident to make changes that could break something?
+You'd be able to revert if you break something. Also it would be easy to go back to a working state by using git checkout that allows you to checkout previous versions....
+

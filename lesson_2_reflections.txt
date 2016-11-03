@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+No commit is automatically created. You have whatever is in the folder not being tracked, but you are on the 'branch master'.
