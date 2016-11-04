@@ -3,4 +3,13 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	The staging area allows you to select the files that are going to be commited, before you actually do. It allows for making sure that the correct files get committed.
- 
+ How can you use the staging area to make sure you have one commit per logical change?
+ 	git diff; git diff --staged are tools to make sure you are staging what you want and making sure you are committing the changes you need.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When I don't think that the change should necessarily be part of the main development course.
+How do the diagrams help you visualize the branch structure?
+	Allows me to better understand where the commit happens and to understand that if I work on an unlabled branch, any progress will be lost because it will be unreacheable, unless I know the id of the commit.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	The changes are merged together automatically. The branch is 'merged into the master' by using git merge master coins for instance. The branch can then be deleted 'git branch -d coins'. All the commits from both branches are now available via 'git log' but ordered by timestamp. to make sure that you are checking a change against it's parent commit 'git show $6a#ga' instead of 'git diff $6a#ga ga89a2'
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	
